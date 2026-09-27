@@ -1,0 +1,16 @@
+{
+  "metrics": [
+    {"key": "productivity", "label": "Productivity", "min": 1, "max": 10, "required": true},
+    {"key": "energy", "label": "Energy", "min": 1, "max": 10},
+    {"key": "focus_hours", "label": "Deep-work hours", "min": 0, "max": 24, "float": true},
+    {"key": "sleep_hours", "label": "Sleep last night (hours)", "min": 0, "max": 24, "float": true},
+    {"key": "exercise_minutes", "label": "Exercise (minutes)", "min": 0, "max": 1440},
+    {"key": "pages_read", "label": "Pages read today", "min": 0, "max": 100},
+    {"key": "leetcode", "label": "LeetCode problems solved", "min": 0, "max": 100}
+  ],
+  "prompts": [
+    {"key": "wins", "label": "Top wins today"},
+    {"key": "blockers", "label": "What slowed you down"},
+    {"key": "tomorrow", "label": "#1 priority for tomorrow"}
+  ]
+}

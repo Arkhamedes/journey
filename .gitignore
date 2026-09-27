@@ -1,0 +1,10 @@
+__pycache__/
+last-report.txt
+.last-auto-report
+
+# Personal journal data - never commit
+journal.db
+journal.db-*
+entries/
+last-report.txt
+.last-auto-report
